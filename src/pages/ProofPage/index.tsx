@@ -1,6 +1,7 @@
 import IPage from "../../interfaces/page";
 import React, {useEffect, useState} from "react";
 import ITx from "../../interfaces/tx";
+import {ethers} from "ethers";
 
 const ProofPage: React.FunctionComponent<IPage> = props => {
     const [transactionData, setTransactionData] = useState<ITx[] |null>(null) ;
@@ -31,7 +32,7 @@ const ProofPage: React.FunctionComponent<IPage> = props => {
             <tr>
                 <td><span className={"fw-bolder info text-white"}>{props.tx.block}</span></td>
                 <td><a className={"w-100"} target={"_blank"} href={`https://finder.terra.money/mainnet/tx/${props.tx.tx}`}>{props.tx.tx}</a></td>
-                <td className={"d-flex align-items-right"}><span className={"fw-bolder info text-white"}>{props.tx.amount}</span></td>
+                <td className={"d-flex align-items-right"}><span className={"fw-bolder info text-white"}>{ethers.utils.formatUnits(props.tx.amount,6)}</span></td>
             </tr>
         )
     }
