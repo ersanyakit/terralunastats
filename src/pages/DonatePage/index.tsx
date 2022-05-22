@@ -59,6 +59,7 @@ const DonatePage: React.FunctionComponent<IPage> = props => {
                         <h1>Donate</h1>
                         <h3>We will buy and we will BURN $LUNA</h3>
                         <h4>Financial donations of any size help fund our mission.</h4>
+                        <h5>All donations will be auto swapped to $LUNA and burned.</h5>
                     </div>
 
                     <div className={"col-12 d-flex align-items-center justify-content-center"}>
