@@ -5,6 +5,7 @@ import {useWeb3React} from "@web3-react/core";
 import {useBlockNumber} from "../../state/application/hooks";
 import {ethers} from "ethers";
 import {Spinner} from "../../Components/Spinner";
+import {numberWithCommas} from "../../utils";
 
 const HomePage: React.FunctionComponent<IPage> = props => {
     const  [totalSupply, setTotalSupply] = useState(0);
@@ -245,19 +246,19 @@ const HomePage: React.FunctionComponent<IPage> = props => {
                 <div className="drive-info">
                     <p>TERRA $LUNA:</p>
                     <ul className="data">
-                        <li className="marketcap">{marketCap} {" USD"}  marketCap</li>
+                        <li className="marketcap">{numberWithCommas(marketCap)} {" USD"}  marketCap</li>
                         <li className="change24h">{change24h} change24h</li>
-                        <li className="volume24h">{volume24h} volume24h</li>
+                        <li className="volume24h">{numberWithCommas(volume24h)} USD volume24h</li>
                         <li><hr/></li>
-                        <li className="total">{totalSupply} totalSupply</li>
-                        <li className="examined">{circulationSupply} circulationSupply</li>
-                        <li className="badc">{totalBurnedSupply > 0 ? totalBurnedSupply : <><Spinner color={"#0c3694"} /></> } burned</li>
+                        <li className="total">{numberWithCommas(totalSupply)} totalSupply</li>
+                        <li className="examined">{numberWithCommas(circulationSupply)} circulationSupply</li>
+                        <li className="badc">{totalBurnedSupply > 0 ? numberWithCommas(totalBurnedSupply) : <><Spinner color={"#0c3694"} /></> } burned</li>
                     </ul>
 
                     <div className={"d-flex align-items-center w-100 text-center my-3"}>
                         <a className="twitter-share-button w-100"
                            target={"_blank"}
-                           href={`https://twitter.com/intent/tweet?text=%23TerraLunaStats%20%23lunaburn%0ATotal%20Supply:${totalSupply}%20$LUNA%0ACirculation%20Supply:${circulationSupply}%20$LUNA %0ABurned:${totalBurnedSupply} $LUNA%0AMarketcap:${marketCap} USD%0AVolume24h:${volume24h} USD%0AChange24h:${change24h}%0APrice:${price} USD%0A%0Ahttps%3A%2F%2Fterralunastats.com%2F`}
+                           href={`https://twitter.com/intent/tweet?text=%23TerraLunaStats%0ATotalSupply:${numberWithCommas(totalSupply)}%20$LUNA%0ACirculationSupply:${numberWithCommas(circulationSupply)}%20$LUNA %0ABurned:${numberWithCommas(totalBurnedSupply)} $LUNA%0AMarketcap:$${numberWithCommas(marketCap)}%0AVolume24h:$${numberWithCommas(volume24h)}%0AChange24h:${change24h}%0APrice:$${price}%0A%0Ahttps%3A%2F%2Fterralunastats.com`}
                            data-size="large">
                             <img className={"shareButton"} src={"/images/twitter.svg"}/>
                             Tweet</a>
