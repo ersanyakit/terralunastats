@@ -50,44 +50,13 @@ const HomePage: React.FunctionComponent<IPage> = props => {
             })
     }
 
-    const fetchBurnTransactions = async (offset) =>{
-        const data = await fetch(`https://fcd.terra.dev/v1/txs?offset=${offset}&limit=100&account=terra1sk06e3dyexuq4shw77y3dsv480xv42mq73anxu`);
-        return data ? data.json() : false;
-    }
-
     const fetchBurnedSupply = async () => {
-        const offset = 0;
-        var fullData = [];
-        var lastNext = 1;
-        var data = await fetchBurnTransactions(0);
-        while(lastNext > 0){
-            if (data && data.next && data.next != lastNext){
-                lastNext = data.next;
-                fullData = fullData.concat(data.txs);
-                data = await fetchBurnTransactions(lastNext);
-            }else{
-                break;
-            }
-        }
-        console.dir(fullData);
-        var i = 0;
-        var totalBurnedAmount = 0;
-        for(i = 0; i < fullData.length ; i++){
-            if(fullData[i].tx.value.msg[0].type == "bank/MsgSend"){
-                if(fullData[i].tx.value.msg[0].value.amount[0].denom == "uluna"){
-                    var szAmount =  fullData[i].tx.value.msg[0].value.amount[0].amount;
-                    var formattedAmount = ethers.utils.formatUnits(szAmount,6) ;
-                    console.log(formattedAmount);
-                    totalBurnedAmount =  totalBurnedAmount + parseFloat(formattedAmount.replace(".",","));
-                }
-            }
-        }
-
-        setTotalBurnedSupply(totalBurnedAmount > 0 ? totalBurnedAmount:0);
-        console.log("DONE",totalBurnedAmount)
-
+        const data = await fetch(`https://api.terralunastats.com/api/transactions/burned`)
+            .then(res => res.json())
+            .then(res => {
+                setTotalBurnedSupply(res.burned);
+            })
     }
-
 
     const setProgress = value => {
         setStatusBarCount(value);
