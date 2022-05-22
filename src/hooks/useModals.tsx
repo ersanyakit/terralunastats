@@ -3,7 +3,6 @@ import React, { useState } from 'react'
 import {AnimationHeader} from "../Components/AnimationHeader";
 import { QRCode } from 'react-qrcode-logo';
 import {Network} from "../Components/Network";
-import {DepositButton} from "../Components/DepositButton";
 import {Spinner} from "../Components/Spinner";
 import {WaitComponent} from "../Components/WaitComponent";
 import {useWeb3React} from "@web3-react/core";

@@ -3,12 +3,8 @@ import React, { useState } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 import getLibrary from './utils/web3Provider'
-
 import {  BrowserRouter, Route, Switch, RouteComponentProps, NavLink } from 'react-router-dom';
-
-
 import routes from "./config/route";
-import IMessage from './interfaces/message';
 import { Web3ReactProvider, useWeb3React, UnsupportedChainIdError } from '@web3-react/core'
 import { UserRejectedRequestError as UserRejectedRequestErrorFrame } from '@web3-react/frame-connector'
 import { Web3Provider } from '@ethersproject/providers'
@@ -21,8 +17,6 @@ import Jazzicon,{jsNumberForAddress} from 'react-jazzicon'
 import './App.css';
 import { Logo } from './Components/Logo';
 import {useEagerConnect, useInactiveListener} from "./hooks/web3hooks";
-import {Network} from "./Components/Network";
-import {func} from "prop-types";
 
 enum ConnectorNames {
   Injected = 'Injected',
@@ -48,19 +42,7 @@ const getErrorMessage = (error: Error) => {
   }
 }
 
-
-
-
-
 const App = () => {
-
-
-  const  [totalSupply, setTotalSupply] = useState(0);
-  const [circulationSupply, setcirculationSupply] = useState(0);
-
-  const [chatId,setChatId] = useState(0);
-
-
   const { state: isNoProvider, toggle: toggleNoProvider } = useModal()
   const { state: isShowWallet, toggle: toggleWalletModal } = useModal()
   const { state: isTimeLockEnabled, toggle: toggleTimeLock } = useModal()

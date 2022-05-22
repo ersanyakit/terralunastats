@@ -4,10 +4,8 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { Provider } from 'react-redux'
-import { Web3ReactProvider, useWeb3React, UnsupportedChainIdError } from '@web3-react/core'
 import store from './state'
 import {Web3Provider} from "@ethersproject/providers";
-import { ajax, css } from "jquery";
 
 function getLibrary(provider: any): Web3Provider {
     const library = new Web3Provider(provider)
@@ -25,7 +23,4 @@ ReactDOM.render(
   document.getElementById('root')
 );
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 reportWebVitals();
