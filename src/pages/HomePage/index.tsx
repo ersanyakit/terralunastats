@@ -246,7 +246,7 @@ const HomePage: React.FunctionComponent<IPage> = props => {
                         <li className="badc">{totalBurnedSupply} burned</li>
                     </ul>
 
-                    <div className={"d-flex align-items-center w-100 text-center my-5"}>
+                    <div className={"d-flex align-items-center w-100 text-center my-3"}>
                         <a className="twitter-share-button w-100"
                            target={"_blank"}
                            href={`https://twitter.com/intent/tweet?text=%23TerraLunaStats%20%23lunaburn%0ATotal%20Supply:${totalSupply}%20$LUNA%0ACirculation%20Supply:${circulationSupply}%20$LUNA %0ABurned:${totalBurnedSupply} $LUNA%0A%0Ahttps%3A%2F%2Fterralunastats.com%2F`}
@@ -255,12 +255,23 @@ const HomePage: React.FunctionComponent<IPage> = props => {
                             Tweet</a>
                     </div>
 
+                    <div className={"d-flex align-items-center w-100 text-center my-3"}>
+                        <a className="w-100"
+                           target={"_blank"}
+                           href={`https://finder.terra.money/mainnet/address/terra1sk06e3dyexuq4shw77y3dsv480xv42mq73anxu`}
+                           data-size="large">
+                            <img className={"shareButton"} src={"/images/terra.svg"}/>
+                            View on Terra Explorer</a>
+                    </div>
+
                     <ul className="legend my-5">
                         <li><span className="block unused"></span> totalSupply</li>
                         <li><span className="block used"></span> some used totalSupply</li>
                         <li><span className="block full"></span> some used circulation Supply</li>
                         <li><span className="block bad"></span> some burned</li>
                     </ul>
+
+
                 </div>
             </div>
             <div className="screen-3 ">
