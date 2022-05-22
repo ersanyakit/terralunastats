@@ -55,6 +55,12 @@ const DonatePage: React.FunctionComponent<IPage> = props => {
         <div className={"screen-2 d-flex"}>
         <div className='d-flex flex-column align-items-center justify-content-center'>
                 <div className={"row"}>
+                    <div className={"col-12 d-flex flex-column align-items-center justify-content-center"}>
+                        <h1>Donate</h1>
+                        <h3>We will buy and we will BURN $LUNA</h3>
+                        <h4>Financial donations of any size help fund our mission.</h4>
+                    </div>
+
                     <div className={"col-12 d-flex align-items-center justify-content-center"}>
                         <QRCode bgColor={"transparent"} size={160} enableCORS={true} logoWidth={40} logoHeight={40} qrStyle={"squares"} logoImage={"/images/luna.svg"} fgColor={"#000000"} eyeRadius={5} value={donateAddress} />
                     </div>
