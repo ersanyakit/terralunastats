@@ -177,6 +177,15 @@ const App = () => {
                 <NavLink   className={"actionBtn"} to={"/"}>
                   <span className={"nav-link-text"}>Home</span>
                 </NavLink>
+                <NavLink   className={"actionBtn"} to={"/wormhole"}>
+                  <span className={"nav-link-text"}>Worm Hole Bridge</span>
+                </NavLink>
+                <NavLink   className={"actionBtn"} to={"/wrappedluna"}>
+                  <span className={"nav-link-text"}>Wrapped $LUNA</span>
+                </NavLink>
+                <NavLink   className={"actionBtn"} to={"/transactions"}>
+                  <span className={"nav-link-text"}>Transactions</span>
+                </NavLink>
                 <NavLink   className={"actionBtn"} to={"/donate"}>
                   <span className={"nav-link-text"}>Donate</span>
                 </NavLink>

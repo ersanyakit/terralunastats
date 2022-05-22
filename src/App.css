@@ -91,6 +91,22 @@ body {
   height: 50px !important;
   margin-bottom: 10px !important;
 }
+
+.info{
+  width: 100%;
+  cursor: pointer !important;
+  background: var(--darkgrayColor);
+  border: 0;
+  font-family: var(--fontName);
+  font-size: 1rem;
+  color: var(--grayColor);
+  outline: 0;
+  padding: 2px;
+  margin-right: 1em;
+  box-shadow: 10px 8px 0 black;
+  text-decoration: none;
+}
+
 input,
 button,
 a {
@@ -141,6 +157,16 @@ a::after {
   background: var(--yellowColor);
   width: 0%;
   height: 100%;
+}
+
+.form-bg{
+  background: var(--grayColor);
+  color: black;
+  width: 100%;
+  min-height: 400px;
+  margin-bottom: 30px;
+  box-shadow: 10px 10px 0 black;
+  padding: 20px;
 }
 
 .screen-2 {
