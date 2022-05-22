@@ -169,7 +169,7 @@ const App = () => {
             <Logo className={"logo"} />
             <p className="title">SAVE TERRA $LUNA</p>
             <hr/>
-              <p></p>
+              <p className={"text-center w-100"}>We aim to be a cure to the wounds of millions of $LUNA victims who lost their everything by converting your donated coins to $LUNA tokens. we will burn the luna coina to reduce circulated supply</p>
               <div className="button-panel d-flex flex-row flex-wrap">
 
                 {(account === null) || (!account) ?
@@ -195,7 +195,7 @@ const App = () => {
                 <NavLink   className={"actionBtn"} to={"/"}>
                   <span className={"nav-link-text"}>Home</span>
                 </NavLink>
-                <NavLink   className={"actionBtn d-none"} to={"/donate"}>
+                <NavLink   className={"actionBtn"} to={"/donate"}>
                   <span className={"nav-link-text"}>Donate</span>
                 </NavLink>
                 <NavLink   className={"actionBtn"} to={"/help"}>

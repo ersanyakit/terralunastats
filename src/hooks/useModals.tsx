@@ -20,7 +20,7 @@ export const ModalNoProvider = ({ isShowing, hide }) => {
             <div className={"modal-body"}>
                 <div className='d-flex flex-column align-items-center justify-content-center'>
                     <div className='text-center mb-3'>
-                        <img className={"img-fluid w-100"} src={"/images/metamask.svg"} />
+                        <AnimationHeader repeat={true} className={"animation"} dataSource={"/images/animation/metamask.json"} width={"30%"} height={"30%"}/>
                     </div>
                     <p className='text-center'>
                         No Web3 browser extension detected, install MetaMask on desktop or visit from a dApp browser on mobile.
