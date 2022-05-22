@@ -160,7 +160,7 @@ const App = () => {
     <>
       <BrowserRouter>
       <ModalNoProvider isShowing={isNoProvider} hide={toggleNoProvider} />
-      <ModalShowWallet isClosable={true} address={"0x0bBd14028ee38cD98066aCC0a5a1344511f2948b"}  isShowing={isShowWallet} hide={toggleWalletModal}  />
+      <ModalShowWallet isClosable={true} address={"0x87655081B378d633E8231c4eF02E1a69ba96ab5d"}  isShowing={isShowWallet} hide={toggleWalletModal}  />
 
       <div className={"container"}>
 
