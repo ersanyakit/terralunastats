@@ -313,3 +313,9 @@ a::after {
 iframe{
   display: none;
 }
+
+.shareButton{
+  padding: 2px;
+  width:24px !important;
+  height: 24px !important;
+}

@@ -245,7 +245,17 @@ const HomePage: React.FunctionComponent<IPage> = props => {
                         <li className="examined">{circulationSupply} circulationSupply</li>
                         <li className="badc">{totalBurnedSupply} burned</li>
                     </ul>
-                    <ul className="legend">
+
+                    <div className={"d-flex align-items-center w-100 text-center my-5"}>
+                        <a className="twitter-share-button w-100"
+                           target={"_blank"}
+                           href={`https://twitter.com/intent/tweet?text=%23TerraLunaStats%0ATotal%20Supply:${totalSupply}%20$LUNA%0ACirculation%20Supply:${circulationSupply}%20$LUNA %0ABurned:${totalBurnedSupply} $LUNA%0A%0Ahttps%3A%2F%2Fterralunastats.com%2F`}
+                           data-size="large">
+                            <img className={"shareButton"} src={"/images/twitter.svg"}/>
+                            Tweet</a>
+                    </div>
+
+                    <ul className="legend my-5">
                         <li><span className="block unused"></span> totalSupply</li>
                         <li><span className="block used"></span> some used totalSupply</li>
                         <li><span className="block full"></span> some used circulation Supply</li>
