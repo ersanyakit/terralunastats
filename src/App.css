@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=IBM+Plex+Mono');
 
 :root {
+  --highlightColor: #FFFFFF;
   --blueColor: #0c3694;
   --grayColor: #bcbdaa;
   --darkgrayColor: #525252;
