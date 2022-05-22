@@ -310,12 +310,21 @@ a::after {
   justify-items: flex-start;
 }
 
-iframe{
-  display: none;
-}
-
 .shareButton{
   padding: 2px;
   width:24px !important;
   height: 24px !important;
+}
+
+@media only screen and (max-width: 767px) {
+  .screen-2 {
+    display: flex;
+    flex-direction: column;
+  }
+  .screen-2 > .surface-scan{
+    order:1;
+  }
+  .screen-2 > .drive-info{
+    order:0;
+  }
 }
