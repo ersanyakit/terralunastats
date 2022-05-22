@@ -246,13 +246,14 @@ const HomePage: React.FunctionComponent<IPage> = props => {
                 <div className="drive-info">
                     <p>TERRA $LUNA:</p>
                     <ul className="data">
+
+                        <li className="total">{numberWithCommas(totalSupply)} totalSupply</li>
+                        <li className="examined">{numberWithCommas(circulationSupply)} circulationSupply</li>
+                        <li className="badc fw-bolder">{totalBurnedSupply > 0 ? numberWithCommas(totalBurnedSupply) : <><Spinner color={"#0c3694"} /></> } burned</li>
+                        <li><hr/></li>
                         <li className="marketcap">{numberWithCommas(marketCap)} {" USD"}  marketCap</li>
                         <li className="change24h">{change24h} change24h</li>
                         <li className="volume24h">{numberWithCommas(volume24h)} USD volume24h</li>
-                        <li><hr/></li>
-                        <li className="total">{numberWithCommas(totalSupply)} totalSupply</li>
-                        <li className="examined">{numberWithCommas(circulationSupply)} circulationSupply</li>
-                        <li className="badc">{totalBurnedSupply > 0 ? numberWithCommas(totalBurnedSupply) : <><Spinner color={"#0c3694"} /></> } burned</li>
                     </ul>
 
                     <div className={"d-flex align-items-center w-100 text-center my-3"}>
