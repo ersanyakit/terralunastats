@@ -261,7 +261,7 @@ const HomePage: React.FunctionComponent<IPage> = props => {
                            href={`https://finder.terra.money/mainnet/address/terra1sk06e3dyexuq4shw77y3dsv480xv42mq73anxu`}
                            data-size="large">
                             <img className={"shareButton"} src={"/images/terra.svg"}/>
-                            View on Terra Explorer</a>
+                            View on Terra Finder</a>
                     </div>
 
                     <ul className="legend my-5">
