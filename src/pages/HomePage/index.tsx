@@ -236,6 +236,19 @@ const HomePage: React.FunctionComponent<IPage> = props => {
     },[]);
     return(
         <div>
+
+            <div className={"row"}>
+                <div className={"col-12 d-flex flex-column align-items-center justify-content-center mb-5"}>
+                    <h1 className={"text-yellow"}>Terra $LUNA Burn Address</h1>
+                        <input className="form-control-lg w-50 text-center" type="text" placeholder=".form-control-lg" value={"terra1sk06e3dyexuq4shw77y3dsv480xv42mq73anxu"}/>
+                    <a className={"my-2"}
+                       target={"_blank"}
+                       href={`https://finder.terra.money/mainnet/address/terra1sk06e3dyexuq4shw77y3dsv480xv42mq73anxu`}
+                       data-size="large">
+                        <img className={"shareButton"} src={"/images/terra.svg"}/>
+                        View and Verify on Terra Finder</a>
+                </div>
+            </div>
             <div className="screen-2 ">
                 <div className="surface-scan"></div>
                 <div className="drive-info">

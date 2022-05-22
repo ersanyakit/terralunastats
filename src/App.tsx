@@ -151,7 +151,7 @@ const App = () => {
             <Logo className={"logo"} />
             <p className="title">SAVE TERRA $LUNA</p>
             <hr/>
-              <p className={"text-center w-100"}>We aim to be a cure to the wounds of millions of $LUNA victims who lost their everything by converting your donated coins to $LUNA tokens. <br/>We will burn the $LUNA coin's to reduce circulated supply.</p>
+              <p className={"text-center w-100"}>We aim to be a cure to the wounds of millions of $LUNA victims who lost their everything. We will convert your donated coins to $LUNA. <br/>We will burn the $LUNA coin's to reduce circulated supply.</p>
               <div className="button-panel d-flex flex-row flex-wrap">
 
                 {(account === null) || (!account) ?

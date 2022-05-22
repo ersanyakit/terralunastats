@@ -17,6 +17,9 @@
   font-size: 18px;
 }
 
+.text-yellow{
+  color:var(--yellowColor) !important;
+}
 .modal-header{
   border-bottom: 1px solid var(--darkgrayColor) !important;
 }
