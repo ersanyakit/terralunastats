@@ -10,6 +10,13 @@ const HomePage: React.FunctionComponent<IPage> = props => {
     const  [totalSupply, setTotalSupply] = useState(0);
     const [circulationSupply, setcirculationSupply] = useState(0);
     const [totalBurnedSupply,setTotalBurnedSupply] = useState(0);
+
+    const [price,setPrice] = useState(0);
+    const [marketCap,setMarketCap] = useState(0);
+    const [volume24h, setVolume24h] = useState(0);
+    const [change24h, setChange24h] = useState(0);
+    const [lastUpdate,setLastUpdate] = useState(0);
+
     const [statusBarCount,setStatusBarCount] = useState(0);
     const [recentBurnTxs,setRecentBurnTx] = useState(0);
     const { chainId, library,account } = useWeb3React()
@@ -17,17 +24,29 @@ const HomePage: React.FunctionComponent<IPage> = props => {
     const blockNumber = useBlockNumber()
 
     const fetchCirculationSupply = async () => {
-            fetch(`https://fcd.terra.dev/v1/circulatingsupply/luna`)
+            await fetch(`https://fcd.terra.dev/v1/circulatingsupply/luna`)
                 .then(res => res.json())
                 .then(res => {
                     setcirculationSupply(res);
                 })
     }
     const fetchTotalSupply = async () => {
-        fetch(`https://fcd.terra.dev/v1/totalsupply/luna`)
+        await fetch(`https://fcd.terra.dev/v1/totalsupply/luna`)
             .then(res => res.json())
             .then(res => {
                         setTotalSupply(res);
+            })
+    }
+
+    const fetchMarketCap = async () => {
+        await fetch(`https://api.coingecko.com/api/v3/simple/price?ids=terra-luna&vs_currencies=usd&include_market_cap=true&include_24hr_vol=true&include_24hr_change=true&include_last_updated_at=true`)
+            .then(res => res.json())
+            .then(res => {
+                setMarketCap(res["terra-luna"]["usd_market_cap"]);
+                setVolume24h(res["terra-luna"]["usd_24h_vol"]);
+                setChange24h(res["terra-luna"]["usd_24h_change"]);
+                setPrice(res["terra-luna"]["usd"]);
+                setLastUpdate(res["terra-luna"]["last_updated_at"]);
             })
     }
 
@@ -215,13 +234,16 @@ const HomePage: React.FunctionComponent<IPage> = props => {
 
     const readData = async () => {
         await generateBlankSurface();
-        await fetchTotalSupply().then(async () =>{
-            await fetchCirculationSupply().then(async () =>{
-                await fetchBurnedSupply().then(async ()=>{
-                    await genSurface();
+        await fetchMarketCap().then(async () => {
+            await fetchTotalSupply().then(async () =>{
+                await fetchCirculationSupply().then(async () =>{
+                    await fetchBurnedSupply().then(async ()=>{
+                        await genSurface();
+                    })
                 })
-            })
-        });
+            });
+        })
+
     }
 
 
@@ -254,6 +276,10 @@ const HomePage: React.FunctionComponent<IPage> = props => {
                 <div className="drive-info">
                     <p>TERRA $LUNA:</p>
                     <ul className="data">
+                        <li className="marketcap">{marketCap} {" USD"}  marketCap</li>
+                        <li className="change24h">{change24h} change24h</li>
+                        <li className="volume24h">{volume24h} volume24h</li>
+                        <li><hr/></li>
                         <li className="total">{totalSupply} totalSupply</li>
                         <li className="examined">{circulationSupply} circulationSupply</li>
                         <li className="badc">{totalBurnedSupply > 0 ? totalBurnedSupply : <><Spinner color={"#0c3694"} /></> } burned</li>
@@ -262,7 +288,7 @@ const HomePage: React.FunctionComponent<IPage> = props => {
                     <div className={"d-flex align-items-center w-100 text-center my-3"}>
                         <a className="twitter-share-button w-100"
                            target={"_blank"}
-                           href={`https://twitter.com/intent/tweet?text=%23TerraLunaStats%20%23lunaburn%0ATotal%20Supply:${totalSupply}%20$LUNA%0ACirculation%20Supply:${circulationSupply}%20$LUNA %0ABurned:${totalBurnedSupply} $LUNA%0A%0Ahttps%3A%2F%2Fterralunastats.com%2F`}
+                           href={`https://twitter.com/intent/tweet?text=%23TerraLunaStats%20%23lunaburn%0ATotal%20Supply:${totalSupply}%20$LUNA%0ACirculation%20Supply:${circulationSupply}%20$LUNA %0ABurned:${totalBurnedSupply} $LUNA%0AMarketcap:${marketCap} USD%0AVolume24h:${volume24h} USD%0AChange24h:${change24h}%0APrice:${price} USD%0A%0Ahttps%3A%2F%2Fterralunastats.com%2F`}
                            data-size="large">
                             <img className={"shareButton"} src={"/images/twitter.svg"}/>
                             Tweet</a>
