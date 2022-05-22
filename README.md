@@ -1,7 +1,11 @@
-# Getting Started with Create React App
+# TERRA $LUNA BURN TRACKER
+Watch #Terra $LUNA burn in real time, per block, creating a sense of deflation.
 
+https://terralunastats.com
 
-## Available Scripts
+https://twitter.com/ersan.eth
+
+## Compile & Run Scripts
 
 `npm install --legacy-peer-deps`
 
