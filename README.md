@@ -2,3 +2,5 @@
 
 
 ## Available Scripts
+
+`npm install --legacy-peer-deps`
