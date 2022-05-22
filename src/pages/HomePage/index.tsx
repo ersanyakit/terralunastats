@@ -4,6 +4,7 @@ import React, {useEffect, useState} from "react";
 import {useWeb3React} from "@web3-react/core";
 import {useBlockNumber} from "../../state/application/hooks";
 import {ethers} from "ethers";
+import {Spinner} from "../../Components/Spinner";
 
 const HomePage: React.FunctionComponent<IPage> = props => {
     const  [totalSupply, setTotalSupply] = useState(0);
@@ -221,7 +222,6 @@ const HomePage: React.FunctionComponent<IPage> = props => {
                 })
             })
         });
-
     }
 
 
@@ -256,7 +256,7 @@ const HomePage: React.FunctionComponent<IPage> = props => {
                     <ul className="data">
                         <li className="total">{totalSupply} totalSupply</li>
                         <li className="examined">{circulationSupply} circulationSupply</li>
-                        <li className="badc">{totalBurnedSupply} burned</li>
+                        <li className="badc">{totalBurnedSupply > 0 ? totalBurnedSupply : <><Spinner color={"#0c3694"} /></> } burned</li>
                     </ul>
 
                     <div className={"d-flex align-items-center w-100 text-center my-3"}>

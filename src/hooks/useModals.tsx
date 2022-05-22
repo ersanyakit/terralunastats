@@ -39,7 +39,7 @@ export const ModalLoading = ({ isShowing, hide,text,isClosable }) => {
             <div className={"modal-body"}>
                 <div className='d-flex flex-column align-items-center justify-content-center'>
                     <div className='text-center py-5'>
-                        <Spinner color={"#E56AB3"} />
+                        <Spinner color={"#0c3694"} />
                     </div>
                     <p className='text-center'>
                         Please Wait!
