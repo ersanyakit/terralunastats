@@ -176,6 +176,7 @@ a::after {
   margin-bottom: 30px;
   box-shadow: 10px 10px 0 black;
   padding: 20px;
+  overflow-x: scroll !important;
 }
 
 .screen-2 {
