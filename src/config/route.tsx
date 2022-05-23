@@ -8,6 +8,7 @@ import BSCPage from "../pages/BSCPage";
 import ProofPage from "../pages/ProofPage";
 import WormHolePage from "../pages/WormHolePage";
 import WrappedLunaPage from "../pages/WrappedLunaPage";
+import LeaderBoard from "../pages/LeaderBoardPage";
 const routes:IRoute[]=[
 
     {path:"/",name:"HomePage",title:'Home',component:HomePage,exact:true},
@@ -19,6 +20,7 @@ const routes:IRoute[]=[
     {path:"/transactions",name:"ProofPage",title:'Transactions',component:ProofPage,exact:true},
     {path:"/wormhole",name:"WormHoleBridgePage",title:'WormHole Bridge',component:WormHolePage,exact:true},
     {path:"/wrappedluna",name:"WrappedLunaPage",title:'Wrapped Luna',component:WrappedLunaPage,exact:true},
+    {path:"/leaderboard",name:"LeaderBoardPage",title:'Leaderboard',component:LeaderBoard,exact:true},
 
 ];
 

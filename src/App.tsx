@@ -186,6 +186,9 @@ const App = () => {
                 <NavLink   className={"actionBtn"} to={"/transactions"}>
                   <span className={"nav-link-text"}>Transactions</span>
                 </NavLink>
+                <NavLink   className={"actionBtn"} to={"/leaderboard"}>
+                  <span className={"nav-link-text"}>Leaderboard</span>
+                </NavLink>
                 <NavLink   className={"actionBtn"} to={"/donate"}>
                   <span className={"nav-link-text"}>Donate</span>
                 </NavLink>
