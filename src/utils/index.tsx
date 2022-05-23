@@ -18,5 +18,5 @@ export function formatValue(value:string, fixed : boolean, decimal = 2 ) : strin
 }
 
 export function numberWithCommas(value) {
-    return value.toString().replace(/\B(?<!\.\d*)(?=(\d{3})+(?!\d))/g, ",");
+    return value.toLocaleString();
 }
