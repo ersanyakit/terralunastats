@@ -24,6 +24,8 @@ const HomePage: React.FunctionComponent<IPage> = props => {
     const [NUM_BLOCKS,SETNUMBLOCKS] = useState(1024);
     const blockNumber = useBlockNumber()
 
+    const [isLoaded,setIsLoaded] = useState(false);
+
     const fetchCirculationSupply = async () => {
             await fetch(`https://fcd.terra.dev/v1/circulatingsupply/luna`)
                 .then(res => res.json())
@@ -203,18 +205,25 @@ const HomePage: React.FunctionComponent<IPage> = props => {
 
 
     const readData = async () => {
+        setIsLoaded(false);
         await generateBlankSurface();
         await fetchMarketCap().then(async () => {
             await fetchTotalSupply().then(async () =>{
                 await fetchCirculationSupply().then(async () =>{
                     await fetchBurnedSupply().then(async ()=>{
-                        await genSurface();
+                        setIsLoaded(true);
                     })
                 })
             });
         })
 
     }
+
+    useEffect(()=>{
+        if(isLoaded){
+            genSurface();
+        }
+    },[isLoaded])
 
 
 
