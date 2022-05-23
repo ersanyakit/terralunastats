@@ -143,8 +143,13 @@ a::after {
 }
 
 .status-bar {
-  display: grid;
-  grid-template-columns: 1fr 600px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.status-bar > span {
+  width: 100% !important;
 }
 
 .status-bar span[data-count]::before {
@@ -152,6 +157,8 @@ a::after {
 }
 
 .progressbar {
+  width: 100% !important;
+  height: 27px !important;
   background: var(--darkgrayColor);
 }
 
