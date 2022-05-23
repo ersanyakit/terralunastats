@@ -18,6 +18,8 @@ const AboutPage: React.FunctionComponent<IPage> = props => {
                     <ul>
                         <li>Telegram</li>
                         <ol><a target={"_blank"} href={"https://t.me/terralunastats"}>Join our telegram group</a></ol>
+                        <li>Follow Us</li>
+                        <ol><a target={"_blank"}  href={"https://twitter.com/terralunastats"}>@terralunastats</a></ol>
                         <li>Source Code</li>
                         <ol><a target={"_blank"}  href={"https://github.com/ersanyakit/terralunastats"}>Source codes of terralunastats.com</a></ol>
                         <li>Feature Requests</li>
