@@ -38,7 +38,7 @@ const AboutPage: React.FunctionComponent<IPage> = props => {
                     <li><a target={"_blank"}  href={"https://twitter.com/martkist"}>Martkist</a></li>
                     <li>Luna Burn Club</li>
                     <ol><a target={"_blank"}  href={"https://twitter.com/LunaBurnClub"}>Twitter</a></ol>
-                    <ol><a target={"_blank"}  href={"https://t.me/LunaBurnClub"}>Join Telegram group</a></ol>
+                    <ol><a target={"_blank"}  href={"https://t.me/LunaBurnClub"}>Join Luna Burn Club</a></ol>
                 </ul>
             </div>
 
