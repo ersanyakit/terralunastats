@@ -370,3 +370,12 @@ a::after {
 iframe{
   display: none;
 }
+
+ul{
+  list-style: none !important;
+}
+ul > li,
+ul > ol{
+  font-weight: bolder;
+  margin-bottom: 10px !important;
+}
