@@ -44,12 +44,12 @@ const WormHolePage: React.FunctionComponent<IPage> = props => {
     return(
         <div className={" form-bg"}>
             <div className={"row"}>
-                <div className={"col-6"}>
+                <div className={"col-lg-6 col-sm-12"}>
                     <div className={"col-12 d-flex flex-column align-items-center justify-content-center"}>
                         <Network className={"py-5"}/>
                     </div>
                 </div>
-                <div className={"col-6"}>
+                <div className={"col-lg-6 col-sm-12"}>
                     <p>Contract Address : {contractAddress}</p>
                     <p>Name : {name}</p>
                     <p>Symbol : {symbol}</p>
