@@ -30,6 +30,7 @@ const AboutPage: React.FunctionComponent<IPage> = props => {
             <div className={"col-lg-6 col-sm-12"}>
                 <h4>Special Thanks Goes To</h4>
                 <ul>
+                    <li><a target={"_blank"}  href={"https://www.coingecko.com"}>CoinGecko</a></li>
                     <li><a target={"_blank"}  href={"https://twitter.com/Dnasc4"}>Dnasc</a></li>
                     <li>Ambroise H(@makrbuildr)</li>
                     <li>Terra Agora Rehabilitation</li>
