@@ -26,15 +26,9 @@ const WormHolePage: React.FunctionComponent<IPage> = props => {
         setDecimals(BigNumber.from(_decimals).toNumber());
         setName(_name);
         setSymbol(_symbol);
-
-
-
-
         const _contractBalance = await wormHoleLunaContract.balanceOf(wormHoleLunaContract.address);
         setContractBalance(formatUnits(_contractBalance,_decimals))
         setContractAddress(wormHoleLunaContract.address);
-        console.log(contractBalance);
-
     }
 
     useEffect(()=>{
