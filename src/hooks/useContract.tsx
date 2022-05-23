@@ -39,31 +39,6 @@ export async function  _userControl()
     return true;
 }
 
-export function _useContract( address: string | undefined, ABI: any )
-{
-
-    return useMemo( () => {
-        var _address = '';
-        let _key     = _testmode ? CONTRACT_ADRESSES.AVAX.FUJI : CONTRACT_ADRESSES.AVAX.MAIN;
-        let _rpc     = _testmode ?  BLOCKCHAINS.AVAX.FUJI.rpcUrls[0] :  BLOCKCHAINS.AVAX.MAIN.rpcUrls[0];
-
-        Object.entries(_key).map( item => {
-            if( item[0] == address )
-            {
-                _address = item[1];
-            }
-        });
-
-        if( !_address ) return false;
-
-        const provider = new ethers.providers.JsonRpcProvider( _rpc );
-        return getContract(
-            _address,
-            ABI,
-            provider,
-        );
-    },[]);
-}
 
 export function useContract(address: string | undefined, ABI: any, withSignerIfPossible = true): Contract | null {
     const { library, account } = useWeb3React()
