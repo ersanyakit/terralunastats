@@ -17,7 +17,16 @@ export function formatValue(value:string, fixed : boolean, decimal = 2 ) : strin
     return value;
 }
 
+function formatNums(num,sep,dec,u){
+    sep=sep||',';u=u||'\\d';if(typeof num!='string'){
+        num=String(num);
+        if(dec&&dec!='.')
+            num=num.replace('.',dec);}
+    return num.replace(RegExp('\\'+(dec||'.')+u+'+|'+u+'(?=(?:'+u+'{3})+(?!'+u+'))','g'),function(a){
+        return a.length==1?a+sep:a})}
+
 export function numberWithCommas(value) {
-    return value.toString().replace(/\B(?!\.\d*)(?=(\d{3})+(?!\d))/g, ",");
+    return  formatNums(value,',','.','[\\d\\u0660-\\u0669\\u06f0-\\u06f9]');
+
 
 }
