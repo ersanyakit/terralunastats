@@ -18,7 +18,6 @@ const LeaderBoard: React.FunctionComponent<IPage> = props => {
             .then(res => res.json())
             .then(res => {
                 setTransactionData(res);
-                console.dir(res);
                 setIsLoaded(true);
             })
     }
