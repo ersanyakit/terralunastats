@@ -26,6 +26,17 @@ const HomePage: React.FunctionComponent<IPage> = props => {
 
     const [isLoaded,setIsLoaded] = useState(false);
 
+
+
+    const fetchTotalAndCirculationSupply = async () => {
+        await fetch(`https://api.coingecko.com/api/v3/coins/terra-luna?localization=false&tickers=false&market_data=true&community_data=false&developer_data=false&sparkline=false`)
+            .then(res => res.json())
+            .then(res => {
+                setTotalSupply(res.market_data.total_supply);
+                setcirculationSupply(res.market_data.circulating_supply);
+            })
+    }
+
     const fetchCirculationSupply = async () => {
             await fetch(`https://fcd.terra.dev/v1/circulatingsupply/luna`)
                 .then(res => res.json())
@@ -207,6 +218,7 @@ const HomePage: React.FunctionComponent<IPage> = props => {
     const readData = async () => {
         setIsLoaded(false);
         await generateBlankSurface();
+/*
         await fetchMarketCap().then(async () => {
             await fetchTotalSupply().then(async () =>{
                 await fetchCirculationSupply().then(async () =>{
@@ -216,6 +228,18 @@ const HomePage: React.FunctionComponent<IPage> = props => {
                 })
             });
         })
+*/
+
+        await fetchMarketCap().then(async () => {
+            await fetchTotalAndCirculationSupply().then(async () =>{
+                    await fetchBurnedSupply().then(async ()=>{
+                        setIsLoaded(true);
+                    })
+            });
+        })
+
+
+
 
     }
 
