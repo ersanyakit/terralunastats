@@ -9,13 +9,14 @@ import ProofPage from "../pages/ProofPage";
 import WormHolePage from "../pages/WormHolePage";
 import WrappedLunaPage from "../pages/WrappedLunaPage";
 import LeaderBoard from "../pages/LeaderBoardPage";
+import NFTPage from "../pages/NFTPage";
 const routes:IRoute[]=[
 
     {path:"/",name:"HomePage",title:'Home',component:HomePage,exact:true},
     {path:"/home",name:"HomePage",title:'Home',component:HomePage,exact:true},
     {path:"/donate",name:"DonatePage",title:'Donate',component:DonatePage,exact:true},
     {path:"/about",name:"AboutPage",title:'About',component:AboutPage,exact:true},
-    {path:"/help",name:"HelpPage",title:'Help',component:HelpPage,exact:true},
+    {path:"/nft",name:"NFTPage",title:'NFT',component:NFTPage,exact:true},
     {path:"/bsc",name:"BSCPage",title:'BSCPage',component:BSCPage,exact:true},
     {path:"/transactions",name:"ProofPage",title:'Transactions',component:ProofPage,exact:true},
     {path:"/wormhole",name:"WormHoleBridgePage",title:'WormHole Bridge',component:WormHolePage,exact:true},

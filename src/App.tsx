@@ -177,6 +177,9 @@ const App = () => {
                 <NavLink   className={"actionBtn"} to={"/"}>
                   <span className={"nav-link-text"}>Home</span>
                 </NavLink>
+                <NavLink   className={"actionBtn"} to={"/nft"}>
+                  <span className={"nav-link-text"}>NFT</span>
+                </NavLink>
                 <NavLink   className={"actionBtn"} to={"/wormhole"}>
                   <span className={"nav-link-text"}>Worm Hole Bridge</span>
                 </NavLink>
@@ -192,9 +195,7 @@ const App = () => {
                 <NavLink   className={"actionBtn"} to={"/donate"}>
                   <span className={"nav-link-text"}>Donate</span>
                 </NavLink>
-                <NavLink   className={"actionBtn"} to={"/help"}>
-                  <span className={"nav-link-text"}>Help</span>
-                </NavLink>
+
                 <NavLink   className={"actionBtn"} to={"/about"}>
                   <span className={"nav-link-text"}>About</span>
                 </NavLink>
