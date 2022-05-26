@@ -54,7 +54,7 @@ const USTPage: React.FunctionComponent<IPage> = props => {
     }
 
     const fetchMarketCap = async () => {
-        await fetch(`https://api.coingecko.com/api/v3/simple/price?ids=terra-luna&vs_currencies=usd&include_market_cap=true&include_24hr_vol=true&include_24hr_change=true&include_last_updated_at=true`)
+        await fetch(`https://api.coingecko.com/api/v3/simple/price?ids=terrausd&vs_currencies=usd&include_market_cap=true&include_24hr_vol=true&include_24hr_change=true&include_last_updated_at=true`)
             .then(res => res.json())
             .then(res => {
                 setMarketCap(res["terra-luna"]["usd_market_cap"]);
