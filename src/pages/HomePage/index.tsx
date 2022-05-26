@@ -292,7 +292,7 @@ const HomePage: React.FunctionComponent<IPage> = props => {
                     <div className={"d-flex align-items-center w-100 text-center my-3"}>
                         <a className="twitter-share-button w-100"
                            target={"_blank"}
-                           href={`https://twitter.com/intent/tweet?text=%23TerraLunaStats%0ATotalSupply:${numberWithCommas(totalSupply)}%20$LUNA%0ACirculationSupply:${numberWithCommas(circulationSupply)}%20$LUNA %0ABurned:${numberWithCommas(totalBurnedSupply)} $LUNA%0AMarketcap:$${numberWithCommas(marketCap)}%0AVolume24h:$${numberWithCommas(volume24h)}%0AChange24h:${change24h}%0APrice:$${price}%0A%0Ahttps%3A%2F%2Fterralunastats.com`}
+                           href={`https://twitter.com/intent/tweet?text=%23LunaBurn%0ATotalSupply:${numberWithCommas(totalSupply)}%20$LUNA%0ACirculationSupply:${numberWithCommas(circulationSupply)}%20$LUNA %0ABurned:${numberWithCommas(totalBurnedSupply)} $LUNA%0AMarketcap:$${numberWithCommas(marketCap)}%0AVolume24h:$${numberWithCommas(volume24h)}%0AChange24h:${change24h}%0APrice:$${price}%0A%0Ahttps%3A%2F%2Fterralunastats.com`}
                            data-size="large">
                             <img className={"shareButton"} src={"/images/twitter.svg"}/>
                             Tweet</a>
