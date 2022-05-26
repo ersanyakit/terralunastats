@@ -379,3 +379,9 @@ ul > ol{
   font-weight: bolder;
   margin-bottom: 10px !important;
 }
+.bg-nft{
+  background-position: 58% 72%;
+  height: 100vh;
+  padding: 0!important;
+  margin: 0!important;
+}

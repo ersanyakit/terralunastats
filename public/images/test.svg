@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="0 0 574 310" preserveAspectRatio="none"
+     className="HeatMap__Wrapper-sc-1vbtyrl-11 bZrCAA">
+    <path stroke-width="0" d="M0 283l4 -4h32l4 4v22l-4 4h-32l-4 -4z"
+          style="transform: scale(1); opacity: 1; fill: rgba(19, 31, 47, 0.4);"></path>
+    <path stroke-width="0" d="M0 252l4 -4h32l4 4v22l-4 4h-32l-4 -4z"
+          style="transform: scale(1); opacity: 1; fill: rgba(107, 96, 210, 0.5);"></path>
+    <path stroke-width="0" d="M0 221l4 -4h32l4 4v22l-4 4h-32l-4 -4z"
+          style="transform: scale(1); opacity: 1; fill: rgba(107, 96, 210, 0.5);"></path>
+    <path stroke-width="0" d="M0 190l4 -4h32l4 4v22l-4 4h-32l-4 -4z"
+          style="transform: scale(1); opacity: 1; fill: rgba(53, 124, 232, 0.6);"></path>
+    <path stroke-width="0" d="M0 159l4 -4h32l4 4v22l-4 4h-32l-4 -4z"
+          style="transform: scale(1); opacity: 1; fill: rgba(53, 151, 232, 0.75);"></path>
+    <path stroke-width="0" d="M0 128l4 -4h32l4 4v22l-4 4h-32l-4 -4z"
+          style="transform: scale(1); opacity: 1; fill: rgba(53, 151, 232, 0.75);"></path>
+    <path stroke-width="0" d="M0 97l4 -4h32l4 4v22l-4 4h-32l-4 -4z"
+          style="transform: scale(1); opacity: 1; fill: rgba(53, 124, 232, 0.6);"></path>
+    <path stroke-width="0" d="M0 66l4 -4h32l4 4v22l-4 4h-32l-4 -4z"
+          style="transform: scale(1); opacity: 1; fill: rgba(53, 124, 232, 0.6);"></path>
+    <path stroke-width="0" d="M0 35l4 -4h32l4 4v22l-4 4h-32l-4 -4z"
+          style="transform: scale(1); opacity: 1; fill: rgba(53, 124, 232, 0.6);"></path>
+    <path stroke-width="0" d="M0 4l4 -4h32l4 4v22l-4 4h-32l-4 -4z"
+          style="transform: scale(1); opacity: 1; fill: rgba(53, 124, 232, 0.6);"></path>
+    <path stroke-width="0" d="M41 283l4 -4h32l4 4v22l-4 4h-32l-4 -4z"
+          style="transform: scale(1); opacity: 1; fill: rgba(107, 96, 210, 0.5);"></path>
+    <path stroke-width="0" d="M41 252l4 -4h32l4 4v22l-4 4h-32l-4 -4z"
+          style="transform: scale(1); opacity: 1; fill: rgba(53, 124, 232, 0.6);"></path>
+    <path stroke-width="0" d="M41 221l4 -4h32l4 4v22l-4 4h-32l-4 -4z"
+          style="transform: scale(1); opacity: 1; fill: rgba(53, 124, 232, 0.6);"></path>
+    <path stroke-width="0" d="M41 190l4 -4h32l4 4v22l-4 4h-32l-4 -4z"
+          style="transform: scale(1); opacity: 1; fill: rgba(53, 124, 232, 0.6);"></path>
+    <path stroke-width="0" d="M41 159l4 -4h32l4 4v22l-4 4h-32l-4 -4z"
+          style="transform: scale(1); opacity: 1; fill: rgba(53, 124, 232, 0.6);"></path>
+    <path stroke-width="0" d="M41 128l4 -4h32l4 4v22l-4 4h-32l-4 -4z"
+          style="transform: scale(1); opacity: 1; fill: rgba(53, 124, 232, 0.6);"></path>
+    <path stroke-width="0" d="M41 97l4 -4h32l4 4v22l-4 4h-32l-4 -4z"
+          style="transform: scale(1); opacity: 1; fill: rgba(53, 124, 232, 0.6);"></path>
+    <path stroke-width="0" d="M41 66l4 -4h32l4 4v22l-4 4h-32l-4 -4z"
+          style="transform: scale(1); opacity: 1; fill: rgba(53, 124, 232, 0.6);"></path>
+    <path stroke-width="0" d="M41 35l4 -4h32l4 4v22l-4 4h-32l-4 -4z"
+          style="transform: scale(1); opacity: 1; fill: rgba(53, 124, 232, 0.6);"></path>
+    <path stroke-width="0" d="M41 4l4 -4h32l4 4v22l-4 4h-32l-4 -4z"
+          style="transform: scale(1); opacity: 1; fill: rgba(53, 124, 232, 0.6);"></path>
+    <path stroke-width="0" d="M82 283l4 -4h32l4 4v22l-4 4h-32l-4 -4z"
+          style="transform: scale(1); opacity: 1; fill: rgba(53, 124, 232, 0.6);"></path>
+    <path stroke-width="0" d="M82 252l4 -4h32l4 4v22l-4 4h-32l-4 -4z"
+          style="transform: scale(1); opacity: 1; fill: rgba(53, 124, 232, 0.6);"></path>
+    <path stroke-width="0" d="M82 221l4 -4h32l4 4v22l-4 4h-32l-4 -4z"
+          style="transform: scale(1); opacity: 1; fill: rgba(53, 124, 232, 0.6);"></path>
+    <path stroke-width="0" d="M82 190l4 -4h32l4 4v22l-4 4h-32l-4 -4z"
+          style="transform: scale(1); opacity: 1; fill: rgba(53, 124, 232, 0.6);"></path>
+    <path stroke-width="0" d="M82 159l4 -4h32l4 4v22l-4 4h-32l-4 -4z"
+          style="transform: scale(1); opacity: 1; fill: rgba(53, 124, 232, 0.6);"></path>
+    <path stroke-width="0" d="M82 128l4 -4h32l4 4v22l-4 4h-32l-4 -4z"
+          style="transform: scale(1); opacity: 1; fill: rgba(53, 124, 232, 0.6);"></path>
+    <path stroke-width="0" d="M82 97l4 -4h32l4 4v22l-4 4h-32l-4 -4z"
+          style="transform: scale(1); opacity: 1; fill: rgba(53, 124, 232, 0.6);"></path>
+    <path stroke-width="0" d="M82 66l4 -4h32l4 4v22l-4 4h-32l-4 -4z"
+          style="transform: scale(1); opacity: 1; fill: rgba(53, 124, 232, 0.6);"></path>
+    <path stroke-width="0" d="M82 35l4 -4h32l4 4v22l-4 4h-32l-4 -4z"
+          style="transform: scale(1); opacity: 1; fill: rgba(53, 151, 232, 0.75);"></path>
+    <path stroke-width="0" d="M82 4l4 -4h32l4 4v22l-4 4h-32l-4 -4z"
+          style="transform: scale(1); opacity: 1; fill: rgba(53, 124, 232, 0.6);"></path>
+    <path stroke-width="0" d="M123 283l4 -4h32l4 4v22l-4 4h-32l-4 -4z"
+          style="transform: scale(1); opacity: 1; fill: rgba(53, 124, 232, 0.6);"></path>
+    <path stroke-width="0" d="M123 252l4 -4h32l4 4v22l-4 4h-32l-4 -4z"
+          style="transform: scale(1); opacity: 1; fill: rgba(53, 124, 232, 0.6);"></path>
+    <path stroke-width="0" d="M123 221l4 -4h32l4 4v22l-4 4h-32l-4 -4z"
+          style="transform: scale(1); opacity: 1; fill: rgba(53, 124, 232, 0.6);"></path>
+    <path stroke-width="0" d="M123 190l4 -4h32l4 4v22l-4 4h-32l-4 -4z"
+          style="transform: scale(1); opacity: 1; fill: rgba(53, 124, 232, 0.6);"></path>
+    <path stroke-width="0" d="M123 159l4 -4h32l4 4v22l-4 4h-32l-4 -4z"
+          style="transform: scale(1); opacity: 1; fill: rgba(53, 151, 232, 0.75);"></path>
+    <path stroke-width="0" d="M123 128l4 -4h32l4 4v22l-4 4h-32l-4 -4z"
+          style="transform: scale(1); opacity: 1; fill: rgba(53, 151, 232, 0.75);"></path>
+    <path stroke-width="0" d="M123 97l4 -4h32l4 4v22l-4 4h-32l-4 -4z"
+          style="transform: scale(1); opacity: 1; fill: rgba(53, 151, 232, 0.75);"></path>
+    <path stroke-width="0" d="M123 66l4 -4h32l4 4v22l-4 4h-32l-4 -4z"
+          style="transform: scale(1); opacity: 1; fill: rgba(53, 151, 232, 0.75);"></path>
+    <path stroke-width="0" d="M123 35l4 -4h32l4 4v22l-4 4h-32l-4 -4z"
+          style="transform: scale(1); opacity: 1; fill: rgba(53, 151, 232, 0.75);"></path>
+    <path stroke-width="0" d="M123 4l4 -4h32l4 4v22l-4 4h-32l-4 -4z"
+          style="transform: scale(1); opacity: 1; fill: rgba(53, 124, 232, 0.6);"></path>
+    <path stroke-width="0" d="M164 283l4 -4h32l4 4v22l-4 4h-32l-4 -4z"
+          style="transform: scale(1); opacity: 1; fill: rgba(53, 151, 232, 0.75);"></path>
+    <path stroke-width="0" d="M164 252l4 -4h32l4 4v22l-4 4h-32l-4 -4z"
+          style="transform: scale(1); opacity: 1; fill: rgba(53, 124, 232, 0.6);"></path>
+    <path stroke-width="0" d="M164 221l4 -4h32l4 4v22l-4 4h-32l-4 -4z"
+          style="transform: scale(1); opacity: 1; fill: rgba(53, 151, 232, 0.75);"></path>
+    <path stroke-width="0" d="M164 190l4 -4h32l4 4v22l-4 4h-32l-4 -4z"
+          style="transform: scale(1); opacity: 1; fill: rgba(53, 151, 232, 0.75);"></path>
+    <path stroke-width="0" d="M164 159l4 -4h32l4 4v22l-4 4h-32l-4 -4z"
+          style="transform: scale(1); opacity: 1; fill: rgba(53, 151, 232, 0.75);"></path>
+    <path stroke-width="0" d="M164 128l4 -4h32l4 4v22l-4 4h-32l-4 -4z"
+          style="transform: scale(1); opacity: 1; fill: rgba(53, 151, 232, 0.75);"></path>
+    <path stroke-width="0" d="M164 97l4 -4h32l4 4v22l-4 4h-32l-4 -4z"
+          style="transform: scale(1); opacity: 1; fill: rgba(53, 151, 232, 0.75);"></path>
+    <path stroke-width="0" d="M164 66l4 -4h32l4 4v22l-4 4h-32l-4 -4z"
+          style="transform: scale(1); opacity: 1; fill: rgba(53, 151, 232, 0.75);"></path>
+    <path stroke-width="0" d="M164 35l4 -4h32l4 4v22l-4 4h-32l-4 -4z"
+          style="transform: scale(1); opacity: 1; fill: rgba(53, 151, 232, 0.75);"></path>
+    <path stroke-width="0" d="M164 4l4 -4h32l4 4v22l-4 4h-32l-4 -4z"
+          style="transform: scale(1); opacity: 1; fill: rgba(53, 151, 232, 0.75);"></path>
+    <path stroke-width="0" d="M205 283l4 -4h32l4 4v22l-4 4h-32l-4 -4z"
+          style="transform: scale(1); opacity: 1; fill: rgba(19, 31, 47, 0.4);"></path>
+    <path stroke-width="0" d="M205 252l4 -4h32l4 4v22l-4 4h-32l-4 -4z"
+          style="transform: scale(1); opacity: 1; fill: rgba(53, 151, 232, 0.75);"></path>
+    <path stroke-width="0" d="M205 221l4 -4h32l4 4v22l-4 4h-32l-4 -4z"
+          style="transform: scale(1); opacity: 1; fill: rgba(53, 151, 232, 0.75);"></path>
+    <path stroke-width="0" d="M205 190l4 -4h32l4 4v22l-4 4h-32l-4 -4z"
+          style="transform: scale(1); opacity: 1; fill: rgba(53, 151, 232, 0.75);"></path>
+    <path stroke-width="0" d="M205 159l4 -4h32l4 4v22l-4 4h-32l-4 -4z"
+          style="transform: scale(1); opacity: 1; fill: rgba(53, 151, 232, 0.75);"></path>
+    <path stroke-width="0" d="M205 128l4 -4h32l4 4v22l-4 4h-32l-4 -4z"
+          style="transform: scale(1); opacity: 1; fill: rgba(53, 151, 232, 0.75);"></path>
+    <path stroke-width="0" d="M205 97l4 -4h32l4 4v22l-4 4h-32l-4 -4z"
+          style="transform: scale(1); opacity: 1; fill: rgba(0, 207, 255, 0.75);"></path>
+    <path stroke-width="0" d="M205 66l4 -4h32l4 4v22l-4 4h-32l-4 -4z"
+          style="transform: scale(1); opacity: 1; fill: rgba(0, 207, 255, 0.75);"></path>
+    <path stroke-width="0" d="M205 35l4 -4h32l4 4v22l-4 4h-32l-4 -4z"
+          style="transform: scale(1); opacity: 1; fill: rgba(0, 207, 255, 0.75);"></path>
+    <path stroke-width="0" d="M205 4l4 -4h32l4 4v22l-4 4h-32l-4 -4z"
+          style="transform: scale(1); opacity: 1; fill: rgba(0, 207, 255, 0.75);"></path>
+    <path stroke-width="0" d="M246 283l4 -4h32l4 4v22l-4 4h-32l-4 -4z"
+          style="transform: scale(1); opacity: 1; fill: rgba(0, 207, 255, 0.75);"></path>
+    <path stroke-width="0" d="M246 252l4 -4h32l4 4v22l-4 4h-32l-4 -4z"
+          style="transform: scale(1); opacity: 1; fill: rgba(53, 151, 232, 0.75);"></path>
+    <path stroke-width="0" d="M246 221l4 -4h32l4 4v22l-4 4h-32l-4 -4z"
+          style="transform: scale(1); opacity: 1; fill: rgba(53, 151, 232, 0.75);"></path>
+    <path stroke-width="0" d="M246 190l4 -4h32l4 4v22l-4 4h-32l-4 -4z"
+          style="transform: scale(1); opacity: 1; fill: rgba(0, 207, 255, 0.75);"></path>
+    <path stroke-width="0" d="M246 159l4 -4h32l4 4v22l-4 4h-32l-4 -4z"
+          style="transform: scale(1); opacity: 1; fill: rgba(53, 151, 232, 0.75);"></path>
+    <path stroke-width="0" d="M246 128l4 -4h32l4 4v22l-4 4h-32l-4 -4z"
+          style="transform: scale(1); opacity: 1; fill: rgba(0, 207, 255, 0.75);"></path>
+    <path stroke-width="0" d="M246 97l4 -4h32l4 4v22l-4 4h-32l-4 -4z"
+          style="transform: scale(1); opacity: 1; fill: rgba(0, 207, 255, 0.75);"></path>
+    <path stroke-width="0" d="M246 66l4 -4h32l4 4v22l-4 4h-32l-4 -4z"
+          style="transform: scale(1); opacity: 1; fill: rgba(0, 207, 255, 0.75);"></path>
+    <path stroke-width="0" d="M246 35l4 -4h32l4 4v22l-4 4h-32l-4 -4z"
+          style="transform: scale(1); opacity: 1; fill: rgb(16, 209, 223);"></path>
+    <path stroke-width="0" d="M246 4l4 -4h32l4 4v22l-4 4h-32l-4 -4z"
+          style="transform: scale(1); opacity: 1; fill: rgb(16, 209, 223);"></path>
+    <path stroke-width="0" d="M287 283l4 -4h32l4 4v22l-4 4h-32l-4 -4z"
+          style="transform: scale(1); opacity: 1; fill: rgba(0, 207, 255, 0.75);"></path>
+    <path stroke-width="0" d="M287 252l4 -4h32l4 4v22l-4 4h-32l-4 -4z"
+          style="transform: scale(1); opacity: 1; fill: rgba(53, 124, 232, 0.6);"></path>
+    <path stroke-width="0" d="M287 221l4 -4h32l4 4v22l-4 4h-32l-4 -4z"
+          style="transform: scale(1); opacity: 1; fill: rgba(53, 151, 232, 0.75);"></path>
+    <path stroke-width="0" d="M287 190l4 -4h32l4 4v22l-4 4h-32l-4 -4z"
+          style="transform: scale(1); opacity: 1; fill: rgba(0, 207, 255, 0.75);"></path>
+    <path stroke-width="0" d="M287 159l4 -4h32l4 4v22l-4 4h-32l-4 -4z"
+          style="transform: scale(1); opacity: 1; fill: rgba(0, 207, 255, 0.75);"></path>
+    <path stroke-width="0" d="M287 128l4 -4h32l4 4v22l-4 4h-32l-4 -4z"
+          style="transform: scale(1); opacity: 1; fill: rgba(0, 207, 255, 0.75);"></path>
+    <path stroke-width="0" d="M287 97l4 -4h32l4 4v22l-4 4h-32l-4 -4z"
+          style="transform: scale(1); opacity: 1; fill: rgba(0, 207, 255, 0.75);"></path>
+    <path stroke-width="0" d="M287 66l4 -4h32l4 4v22l-4 4h-32l-4 -4z"
+          style="transform: scale(1); opacity: 1; fill: rgb(16, 209, 223);"></path>
+    <path stroke-width="0" d="M287 35l4 -4h32l4 4v22l-4 4h-32l-4 -4z"
+          style="transform: scale(1); opacity: 1; fill: rgb(16, 209, 223);"></path>
+    <path stroke-width="0" d="M287 4l4 -4h32l4 4v22l-4 4h-32l-4 -4z"
+          style="transform: scale(1); opacity: 1; fill: rgba(0, 207, 255, 0.75);"></path>
+    <path stroke-width="0" d="M328 283l4 -4h32l4 4v22l-4 4h-32l-4 -4z"
+          style="transform: scale(1); opacity: 1; fill: rgba(19, 31, 47, 0.4);"></path>
+    <path stroke-width="0" d="M328 252l4 -4h32l4 4v22l-4 4h-32l-4 -4z"
+          style="transform: scale(1); opacity: 1; fill: rgba(53, 151, 232, 0.75);"></path>
+    <path stroke-width="0" d="M328 221l4 -4h32l4 4v22l-4 4h-32l-4 -4z"
+          style="transform: scale(1); opacity: 1; fill: rgba(0, 207, 255, 0.75);"></path>
+    <path stroke-width="0" d="M328 190l4 -4h32l4 4v22l-4 4h-32l-4 -4z"
+          style="transform: scale(1); opacity: 1; fill: rgba(0, 207, 255, 0.75);"></path>
+    <path stroke-width="0" d="M328 159l4 -4h32l4 4v22l-4 4h-32l-4 -4z"
+          style="transform: scale(1); opacity: 1; fill: rgba(0, 207, 255, 0.75);"></path>
+    <path stroke-width="0" d="M328 128l4 -4h32l4 4v22l-4 4h-32l-4 -4z"
+          style="transform: scale(1); opacity: 1; fill: rgba(0, 207, 255, 0.75);"></path>
+    <path stroke-width="0" d="M328 97l4 -4h32l4 4v22l-4 4h-32l-4 -4z"
+          style="transform: scale(1); opacity: 1; fill: rgba(0, 207, 255, 0.75);"></path>
+    <path stroke-width="0" d="M328 66l4 -4h32l4 4v22l-4 4h-32l-4 -4z"
+          style="transform: scale(1); opacity: 1; fill: rgb(16, 209, 223);"></path>
+    <path stroke-width="0" d="M328 35l4 -4h32l4 4v22l-4 4h-32l-4 -4z"
+          style="transform: scale(1); opacity: 1; fill: rgb(16, 209, 223);"></path>
+    <path stroke-width="0" d="M328 4l4 -4h32l4 4v22l-4 4h-32l-4 -4z"
+          style="transform: scale(1); opacity: 1; fill: rgba(0, 207, 255, 0.75);"></path>
+    <path stroke-width="0" d="M369 283l4 -4h32l4 4v22l-4 4h-32l-4 -4z"
+          style="transform: scale(1); opacity: 1; fill: rgba(19, 31, 47, 0.4);"></path>
+    <path stroke-width="0" d="M369 252l4 -4h32l4 4v22l-4 4h-32l-4 -4z"
+          style="transform: scale(1); opacity: 1; fill: rgba(53, 151, 232, 0.75);"></path>
+    <path stroke-width="0" d="M369 221l4 -4h32l4 4v22l-4 4h-32l-4 -4z"
+          style="transform: scale(1); opacity: 1; fill: rgba(0, 207, 255, 0.75);"></path>
+    <path stroke-width="0" d="M369 190l4 -4h32l4 4v22l-4 4h-32l-4 -4z"
+          style="transform: scale(1); opacity: 1; fill: rgba(0, 207, 255, 0.75);"></path>
+    <path stroke-width="0" d="M369 159l4 -4h32l4 4v22l-4 4h-32l-4 -4z"
+          style="transform: scale(1); opacity: 1; fill: rgba(0, 207, 255, 0.75);"></path>
+    <path stroke-width="0" d="M369 128l4 -4h32l4 4v22l-4 4h-32l-4 -4z"
+          style="transform: scale(1); opacity: 1; fill: rgba(0, 207, 255, 0.75);"></path>
+    <path stroke-width="0" d="M369 97l4 -4h32l4 4v22l-4 4h-32l-4 -4z"
+          style="transform: scale(1); opacity: 1; fill: rgba(0, 207, 255, 0.75);"></path>
+    <path stroke-width="0" d="M369 66l4 -4h32l4 4v22l-4 4h-32l-4 -4z"
+          style="transform: scale(1); opacity: 1; fill: rgba(0, 207, 255, 0.75);"></path>
+    <path stroke-width="0" d="M369 35l4 -4h32l4 4v22l-4 4h-32l-4 -4z"
+          style="transform: scale(1); opacity: 1; fill: rgb(16, 209, 223);"></path>
+    <path stroke-width="0" d="M369 4l4 -4h32l4 4v22l-4 4h-32l-4 -4z"
+          style="transform: scale(1); opacity: 1; fill: rgb(16, 209, 223);"></path>
+    <path stroke-width="0" d="M410 283l4 -4h32l4 4v22l-4 4h-32l-4 -4z"
+          style="transform: scale(1); opacity: 1; fill: rgba(19, 31, 47, 0.4);"></path>
+    <path stroke-width="0" d="M410 252l4 -4h32l4 4v22l-4 4h-32l-4 -4z"
+          style="transform: scale(1); opacity: 1; fill: rgba(0, 207, 255, 0.75);"></path>
+    <path stroke-width="0" d="M410 221l4 -4h32l4 4v22l-4 4h-32l-4 -4z"
+          style="transform: scale(1); opacity: 1; fill: rgba(0, 207, 255, 0.75);"></path>
+    <path stroke-width="0" d="M410 190l4 -4h32l4 4v22l-4 4h-32l-4 -4z"
+          style="transform: scale(1); opacity: 1; fill: rgba(0, 207, 255, 0.75);"></path>
+    <path stroke-width="0" d="M410 159l4 -4h32l4 4v22l-4 4h-32l-4 -4z"
+          style="transform: scale(1); opacity: 1; fill: rgba(0, 207, 255, 0.75);"></path>
+    <path stroke-width="0" d="M410 128l4 -4h32l4 4v22l-4 4h-32l-4 -4z"
+          style="transform: scale(1); opacity: 1; fill: rgba(0, 207, 255, 0.75);"></path>
+    <path stroke-width="0" d="M410 97l4 -4h32l4 4v22l-4 4h-32l-4 -4z"
+          style="transform: scale(1); opacity: 1; fill: rgb(16, 209, 223);"></path>
+    <path stroke-width="0" d="M410 66l4 -4h32l4 4v22l-4 4h-32l-4 -4z"
+          style="transform: scale(1); opacity: 1; fill: rgb(16, 209, 223);"></path>
+    <path stroke-width="0" d="M410 35l4 -4h32l4 4v22l-4 4h-32l-4 -4z"
+          style="transform: scale(1); opacity: 1; fill: rgb(16, 209, 223);"></path>
+    <path stroke-width="0" d="M410 4l4 -4h32l4 4v22l-4 4h-32l-4 -4z"
+          style="transform: scale(1); opacity: 1; fill: rgb(16, 209, 223);"></path>
+    <path stroke-width="0" d="M451 283l4 -4h32l4 4v22l-4 4h-32l-4 -4z"
+          style="transform: scale(1); opacity: 1; fill: rgba(19, 31, 47, 0.4);"></path>
+    <path stroke-width="0" d="M451 252l4 -4h32l4 4v22l-4 4h-32l-4 -4z"
+          style="transform: scale(1); opacity: 1; fill: rgba(0, 207, 255, 0.75);"></path>
+    <path stroke-width="0" d="M451 221l4 -4h32l4 4v22l-4 4h-32l-4 -4z"
+          style="transform: scale(1); opacity: 1; fill: rgba(53, 151, 232, 0.75);"></path>
+    <path stroke-width="0" d="M451 190l4 -4h32l4 4v22l-4 4h-32l-4 -4z"
+          style="transform: scale(1); opacity: 1; fill: rgb(16, 209, 223);"></path>
+    <path stroke-width="0" d="M451 159l4 -4h32l4 4v22l-4 4h-32l-4 -4z"
+          style="transform: scale(1); opacity: 1; fill: rgba(0, 207, 255, 0.75);"></path>
+    <path stroke-width="0" d="M451 128l4 -4h32l4 4v22l-4 4h-32l-4 -4z"
+          style="transform: scale(1); opacity: 1; fill: rgba(0, 207, 255, 0.75);"></path>
+    <path stroke-width="0" d="M451 97l4 -4h32l4 4v22l-4 4h-32l-4 -4z"
+          style="transform: scale(1); opacity: 1; fill: rgba(0, 207, 255, 0.75);"></path>
+    <path stroke-width="0" d="M451 66l4 -4h32l4 4v22l-4 4h-32l-4 -4z"
+          style="transform: scale(1); opacity: 1; fill: rgb(16, 209, 223);"></path>
+    <path stroke-width="0" d="M451 35l4 -4h32l4 4v22l-4 4h-32l-4 -4z"
+          style="transform: scale(1); opacity: 1; fill: rgb(16, 209, 223);"></path>
+    <path stroke-width="0" d="M451 4l4 -4h32l4 4v22l-4 4h-32l-4 -4z"
+          style="transform: scale(1); opacity: 1; fill: rgb(16, 209, 223);"></path>
+    <path stroke-width="0" d="M492 283l4 -4h32l4 4v22l-4 4h-32l-4 -4z"
+          style="transform: scale(1); opacity: 1; fill: rgba(19, 31, 47, 0.4);"></path>
+    <path stroke-width="0" d="M492 252l4 -4h32l4 4v22l-4 4h-32l-4 -4z"
+          style="transform: scale(1); opacity: 1; fill: rgba(53, 124, 232, 0.6);"></path>
+    <path stroke-width="0" d="M492 221l4 -4h32l4 4v22l-4 4h-32l-4 -4z"
+          style="transform: scale(1); opacity: 1; fill: rgb(16, 209, 223);"></path>
+    <path stroke-width="0" d="M492 190l4 -4h32l4 4v22l-4 4h-32l-4 -4z"
+          style="transform: scale(1); opacity: 1; fill: rgba(0, 207, 255, 0.75);"></path>
+    <path stroke-width="0" d="M492 159l4 -4h32l4 4v22l-4 4h-32l-4 -4z"
+          style="transform: scale(1); opacity: 1; fill: rgba(53, 151, 232, 0.75);"></path>
+    <path stroke-width="0" d="M492 128l4 -4h32l4 4v22l-4 4h-32l-4 -4z"
+          style="transform: scale(1); opacity: 1; fill: rgba(0, 207, 255, 0.75);"></path>
+    <path stroke-width="0" d="M492 97l4 -4h32l4 4v22l-4 4h-32l-4 -4z"
+          style="transform: scale(1); opacity: 1; fill: rgba(0, 207, 255, 0.75);"></path>
+    <path stroke-width="0" d="M492 66l4 -4h32l4 4v22l-4 4h-32l-4 -4z"
+          style="transform: scale(1); opacity: 1; fill: rgba(0, 207, 255, 0.75);"></path>
+    <path stroke-width="0" d="M492 35l4 -4h32l4 4v22l-4 4h-32l-4 -4z"
+          style="transform: scale(1); opacity: 1; fill: rgb(16, 209, 223);"></path>
+    <path stroke-width="0" d="M492 4l4 -4h32l4 4v22l-4 4h-32l-4 -4z"
+          style="transform: scale(1); opacity: 1; fill: rgb(16, 209, 223);"></path>
+    <path stroke-width="0" d="M533 283l4 -4h32l4 4v22l-4 4h-32l-4 -4z"
+          style="transform: scale(1); opacity: 1; fill: rgba(19, 31, 47, 0.4);"></path>
+    <path stroke-width="0" d="M533 252l4 -4h32l4 4v22l-4 4h-32l-4 -4z"
+          style="transform: scale(1); opacity: 1; fill: rgba(19, 31, 47, 0.4);"></path>
+    <path stroke-width="0" d="M533 221l4 -4h32l4 4v22l-4 4h-32l-4 -4z"
+          style="transform: scale(1); opacity: 1; fill: rgba(53, 151, 232, 0.75);"></path>
+    <path stroke-width="0" d="M533 190l4 -4h32l4 4v22l-4 4h-32l-4 -4z"
+          style="transform: scale(1); opacity: 1; fill: rgba(0, 207, 255, 0.75);"></path>
+    <path stroke-width="0" d="M533 159l4 -4h32l4 4v22l-4 4h-32l-4 -4z"
+          style="transform: scale(1); opacity: 1; fill: rgba(0, 207, 255, 0.75);"></path>
+    <path stroke-width="0" d="M533 128l4 -4h32l4 4v22l-4 4h-32l-4 -4z"
+          style="transform: scale(1); opacity: 1; fill: rgb(16, 209, 223);"></path>
+    <path stroke-width="0" d="M533 97l4 -4h32l4 4v22l-4 4h-32l-4 -4z"
+          style="transform: scale(1); opacity: 1; fill: rgb(16, 209, 223);"></path>
+    <path stroke-width="0" d="M533 66l4 -4h32l4 4v22l-4 4h-32l-4 -4z"
+          style="transform: scale(1); opacity: 1; fill: rgb(16, 209, 223);"></path>
+    <path stroke-width="0" d="M533 35l4 -4h32l4 4v22l-4 4h-32l-4 -4z"
+          style="transform: scale(1); opacity: 1; fill: rgb(16, 209, 223);"></path>
+    <path stroke-width="0" d="M533 4l4 -4h32l4 4v22l-4 4h-32l-4 -4z"
+          style="transform: scale(1); opacity: 1; fill: rgb(38, 214, 184);"></path>
+    <g className="Markers__MarkerGroup-juqshi-0 coTkFS">
+        <g style="opacity: 1;">
+            <defs>
+                <linearGradient id="h_75-50">
+                    <stop offset="50%" stop-color="white" stop-opacity="1"></stop>
+                    <stop offset="100%" stop-color="white" stop-opacity="0"></stop>
+                </linearGradient>
+                <linearGradient id="v_75-50" gradientTransform="rotate(90)">
+                    <stop offset="0%" stop-color="white" stop-opacity="0"></stop>
+                    <stop offset="50%" stop-color="white" stop-opacity="1"></stop>
+                </linearGradient>
+                <radialGradient id="radialEcho" cx="50%" cy="50%" r="50%" fx="50%" fy="50%">
+                    <stop offset="40%" style="stop-color: white; stop-opacity: 0;"></stop>
+                    <stop offset="100%" style="stop-color: white; stop-opacity: 0.7;"></stop>
+                </radialGradient>
+            </defs>
+            <rect x="122" y="0" width="1" height="247.5" fill="url(#v_75-50)"></rect>
+            <rect x="122" y="247" width="451.5" height="1" fill="url(#h_75-50)"></rect>
+            <circle r="4" stroke="white" stroke-width="1.5" fill="#AF49FF" cx="122.5"
+                    cy="247.5"></circle>
+            <circle r="24" fill="url(#radialEcho)" cx="122.5" cy="247.5"
+                    style="opacity: 0;"></circle>
+        </g>
+        <g style="opacity: 1;">
+            <defs>
+                <linearGradient id="h_150-150">
+                    <stop offset="50%" stop-color="white" stop-opacity="1"></stop>
+                    <stop offset="100%" stop-color="white" stop-opacity="0"></stop>
+                </linearGradient>
+                <linearGradient id="v_150-150" gradientTransform="rotate(90)">
+                    <stop offset="0%" stop-color="white" stop-opacity="0"></stop>
+                    <stop offset="50%" stop-color="white" stop-opacity="1"></stop>
+                </linearGradient>
+                <radialGradient id="radialEcho" cx="50%" cy="50%" r="50%" fx="50%" fy="50%">
+                    <stop offset="40%" style="stop-color: white; stop-opacity: 0;"></stop>
+                    <stop offset="100%" style="stop-color: white; stop-opacity: 0.7;"></stop>
+                </radialGradient>
+            </defs>
+            <rect x="245" y="0" width="1" height="123.5" fill="url(#v_150-150)"></rect>
+            <rect x="245" y="123" width="328.5" height="1" fill="url(#h_150-150)"></rect>
+            <circle r="4" stroke="white" stroke-width="1.5" fill="#2DD08D" cx="245.5"
+                    cy="123.5"></circle>
+            <circle r="24" fill="url(#radialEcho)" cx="245.5" cy="123.5"
+                    style="opacity: 0;"></circle>
+        </g>
+    </g>
+</svg>

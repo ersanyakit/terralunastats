@@ -174,24 +174,35 @@ const App = () => {
                     </>
                 }
 
-                <NavLink   className={"actionBtn"} to={"/"}>
-                  <span className={"nav-link-text"}>Home</span>
+                <NavLink className={"actionBtn"} to={"/"}>
+                  <span className={"nav-link-text"}>LUNA</span>
                 </NavLink>
-                <NavLink   className={"actionBtn"} to={"/nft"}>
-                  <span className={"nav-link-text"}>NFT</span>
+
+                <NavLink className={"actionBtn"} to={"/ust"}>
+                  <span className={"nav-link-text"}>UST</span>
                 </NavLink>
-                <NavLink   className={"actionBtn"} to={"/wormhole"}>
-                  <span className={"nav-link-text"}>Worm Hole Bridge</span>
-                </NavLink>
-                <NavLink   className={"actionBtn"} to={"/wrappedluna"}>
-                  <span className={"nav-link-text"}>Wrapped $LUNA</span>
-                </NavLink>
+
+                {/*<NavLink   className={"actionBtn"} to={"/wormhole"}>*/}
+                {/*  <span className={"nav-link-text"}>Worm Hole Bridge</span>*/}
+                {/*</NavLink>*/}
+                {/*<NavLink   className={"actionBtn"} to={"/wrappedluna"}>*/}
+                {/*  <span className={"nav-link-text"}>Wrapped $LUNA</span>*/}
+                {/*</NavLink>*/}
                 <NavLink   className={"actionBtn"} to={"/transactions"}>
-                  <span className={"nav-link-text"}>Transactions</span>
+                  <span className={"nav-link-text"}>LUNA Transactions</span>
                 </NavLink>
                 <NavLink   className={"actionBtn"} to={"/leaderboard"}>
-                  <span className={"nav-link-text"}>Leaderboard</span>
+                  <span className={"nav-link-text"}>LUNA Leaderboard</span>
                 </NavLink>
+
+                <NavLink   className={"actionBtn"} to={"/transactions/ust"}>
+                  <span className={"nav-link-text"}>UST Transactions</span>
+                </NavLink>
+                <NavLink   className={"actionBtn"} to={"/leaderboard/ust"}>
+                  <span className={"nav-link-text"}>UST Leaderboard</span>
+                </NavLink>
+
+
                 <NavLink   className={"actionBtn"} to={"/donate"}>
                   <span className={"nav-link-text"}>Donate</span>
                 </NavLink>

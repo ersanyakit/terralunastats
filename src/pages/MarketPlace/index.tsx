@@ -2,7 +2,7 @@ import IPage from "../../interfaces/page";
 import React,{useEffect} from "react";
 import Background from '../../images/background/forest.webp';
 
-const NFTPage: React.FunctionComponent<IPage> = props => {
+const NFTMarketPlace: React.FunctionComponent<IPage> = props => {
 
 
 
@@ -15,7 +15,6 @@ const NFTPage: React.FunctionComponent<IPage> = props => {
                <div className={"col-12"}>
                    <div className="form-bg">
 
-                    <img style={{width:"250px", height:"250px"}} src={"/images/test.svg"}/>
                    </div>
                </div>
            </div>
@@ -24,4 +23,4 @@ const NFTPage: React.FunctionComponent<IPage> = props => {
 }
 
 
-export default NFTPage;
+export default NFTMarketPlace;
