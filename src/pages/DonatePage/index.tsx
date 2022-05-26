@@ -71,7 +71,7 @@ const DonatePage: React.FunctionComponent<IPage> = props => {
                     </div>
 
                     <div className={"col-12 d-flex align-items-center justify-content-center"}>
-                        <input className="form-control-lg w-50 text-center" type="text" placeholder=".form-control-lg" value={donateAddress}/>
+                        <input className="form-control-lg w-100 text-center" type="text" placeholder=".form-control-lg" value={donateAddress}/>
                     </div>
 
 
