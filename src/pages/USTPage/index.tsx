@@ -57,11 +57,11 @@ const USTPage: React.FunctionComponent<IPage> = props => {
         await fetch(`https://api.coingecko.com/api/v3/simple/price?ids=terrausd&vs_currencies=usd&include_market_cap=true&include_24hr_vol=true&include_24hr_change=true&include_last_updated_at=true`)
             .then(res => res.json())
             .then(res => {
-                setMarketCap(res["terra-luna"]["usd_market_cap"]);
-                setVolume24h(res["terra-luna"]["usd_24h_vol"]);
-                setChange24h(res["terra-luna"]["usd_24h_change"]);
-                setPrice(res["terra-luna"]["usd"]);
-                setLastUpdate(res["terra-luna"]["last_updated_at"]);
+                setMarketCap(res["terrausd"]["usd_market_cap"]);
+                setVolume24h(res["terrausd"]["usd_24h_vol"]);
+                setChange24h(res["terrausd"]["usd_24h_change"]);
+                setPrice(res["terrausd"]["usd"]);
+                setLastUpdate(res["terrausd"]["last_updated_at"]);
             })
     }
 
