@@ -269,7 +269,7 @@ const USTPage: React.FunctionComponent<IPage> = props => {
                     <input className="form-control-lg w-100 text-center" type="text" placeholder=".form-control-lg" value={"terra1sk06e3dyexuq4shw77y3dsv480xv42mq73anxu"}/>
                     <a className={"my-2"}
                        target={"_blank"}
-                       href={`https://finder.terra.money/mainnet/address/terra1sk06e3dyexuq4shw77y3dsv480xv42mq73anxu`}
+                       href={`https://finder.terra.money/classic/address/terra1sk06e3dyexuq4shw77y3dsv480xv42mq73anxu`}
                        data-size="large">
                         <img className={"shareButton"} src={"/images/terra.svg"}/>
                         View and Verify on Terra Finder</a>
@@ -302,7 +302,7 @@ const USTPage: React.FunctionComponent<IPage> = props => {
                     <div className={"d-flex align-items-center w-100 text-center my-3"}>
                         <a className="w-100"
                            target={"_blank"}
-                           href={`https://finder.terra.money/mainnet/address/terra1sk06e3dyexuq4shw77y3dsv480xv42mq73anxu`}
+                           href={`https://finder.terra.money/classic/address/terra1sk06e3dyexuq4shw77y3dsv480xv42mq73anxu`}
                            data-size="large">
                             <img className={"shareButton"} src={"/images/terra.svg"}/>
                             View on Terra Finder</a>

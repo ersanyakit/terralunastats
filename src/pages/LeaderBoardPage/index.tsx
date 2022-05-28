@@ -32,7 +32,7 @@ const LeaderBoard: React.FunctionComponent<IPage> = props => {
         return (
             <tr>
                 <td><span className={"fw-bolder info text-white"}>{props.boardItem.totalBurns}</span></td>
-                <td><a className={"w-100"} target={"_blank"} href={`https://finder.terra.money/mainnet/address/${props.boardItem.from_address}`}>{props.boardItem.from_address}</a></td>
+                <td><a className={"w-100"} target={"_blank"} href={`https://finder.terra.money/classic/address/${props.boardItem.from_address}`}>{props.boardItem.from_address}</a></td>
                 <td className={"d-flex align-items-right"}><span className={"fw-bolder info text-white"}>{numberWithCommas(ethers.utils.formatUnits(props.boardItem.totalAmount,6))}</span></td>
             </tr>
         )

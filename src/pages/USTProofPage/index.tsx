@@ -32,7 +32,7 @@ const USTProofPage: React.FunctionComponent<IPage> = props => {
         return (
             <tr>
                 <td><span className={"fw-bolder info text-white"}>{props.tx.block}</span></td>
-                <td><a className={"w-100"} target={"_blank"} href={`https://finder.terra.money/mainnet/tx/${props.tx.tx}`}>{props.tx.tx}</a></td>
+                <td><a className={"w-100"} target={"_blank"} href={`https://finder.terra.money/classic/tx/${props.tx.tx}`}>{props.tx.tx}</a></td>
                 <td className={"d-flex align-items-right"}><span className={"fw-bolder info text-white"}>{numberWithCommas(ethers.utils.formatUnits(props.tx.amount,6))}</span></td>
             </tr>
         )
