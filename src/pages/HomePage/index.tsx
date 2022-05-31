@@ -219,7 +219,7 @@ const HomePage: React.FunctionComponent<IPage> = props => {
     const readData = async () => {
         setIsLoaded(false);
         await generateBlankSurface();
-/*
+
         await fetchMarketCap().then(async () => {
             await fetchTotalSupply().then(async () =>{
                 await fetchCirculationSupply().then(async () =>{
@@ -229,8 +229,8 @@ const HomePage: React.FunctionComponent<IPage> = props => {
                 })
             });
         })
-*/
 
+/*
         await fetchMarketCap().then(async () => {
             await fetchTotalAndCirculationSupply().then(async () =>{
                     await fetchBurnedSupply().then(async ()=>{
@@ -238,6 +238,8 @@ const HomePage: React.FunctionComponent<IPage> = props => {
                     })
             });
         })
+
+ */
 
 
 
