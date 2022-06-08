@@ -145,13 +145,19 @@ const App = () => {
       <ModalShowWallet isClosable={true} address={"0x87655081B378d633E8231c4eF02E1a69ba96ab5d"}  isShowing={isShowWallet} hide={toggleWalletModal}  />
 
       <div className={"container"}>
-
+        <div className={"row"}>
+          <div className={"col-12"}>
+            <a href={"https://t.me/imondotai"} target={"_blank"}>
+              <img className={"img img-thumbnail w-100"} src={"https://imon.ai/assets/home.png"}/>
+            </a>
+          </div>
+        </div>
         <div className="screen">
           <div className="screen-1">
             <Logo className={"logo"} />
             <p className="title">SAVE TERRA $LUNA</p>
             <hr/>
-              <p className={"text-center w-100"}>We aim to be a cure to the wounds of millions of $LUNA victims who lost their everything. We will convert your donated coins to $LUNA. <br/>We will burn the $LUNA coin's to reduce circulated supply.</p>
+              <p className={"text-center w-100 p-3"}>We aim to be a cure to the wounds of millions of $LUNA victims who lost their everything. We will convert your donated coins to $LUNA. <br/>We will burn the $LUNA coin's to reduce circulated supply.</p>
               <div className="button-panel d-flex flex-row flex-wrap">
 
                 {(account === null) || (!account) ?
